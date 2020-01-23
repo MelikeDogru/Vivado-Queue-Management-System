@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat Dec 28 16:05:57 2019
+# Process ID: 1812
+# Current directory: c:/Users/life/project_1
+# Command line: wbtcv.exe -mode batch -source C:/Users/life/project_1/project_1.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: c:/Users/life/project_1/webtalk.log
+# Journal file: c:/Users/life/project_1\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/life/project_1/project_1.hw/webtalk/labtool_webtalk.tcl -notrace

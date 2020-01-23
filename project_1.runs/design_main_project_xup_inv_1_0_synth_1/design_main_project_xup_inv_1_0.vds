@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat Dec 28 16:52:33 2019
+# Process ID: 14792
+# Current directory: C:/Users/life/project_1/project_1.runs/design_main_project_xup_inv_1_0_synth_1
+# Command line: vivado.exe -log design_main_project_xup_inv_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_main_project_xup_inv_1_0.tcl
+# Log file: C:/Users/life/project_1/project_1.runs/design_main_project_xup_inv_1_0_synth_1/design_main_project_xup_inv_1_0.vds
+# Journal file: C:/Users/life/project_1/project_1.runs/design_main_project_xup_inv_1_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_main_project_xup_inv_1_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_main_project_xup_inv_1_0, cache-ID = 3b723b40f11f231b.
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 28 16:52:42 2019...

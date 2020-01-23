@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat Dec 28 16:35:36 2019
+# Process ID: 11460
+# Current directory: C:/Users/life/project_1/project_1.runs/design_main_project_xlconcat_0_2_synth_1
+# Command line: vivado.exe -log design_main_project_xlconcat_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_main_project_xlconcat_0_2.tcl
+# Log file: C:/Users/life/project_1/project_1.runs/design_main_project_xlconcat_0_2_synth_1/design_main_project_xlconcat_0_2.vds
+# Journal file: C:/Users/life/project_1/project_1.runs/design_main_project_xlconcat_0_2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_main_project_xlconcat_0_2.tcl -notrace
+Starting Synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 295.840 ; gain = 86.156
+INFO: [Synth 8-638] synthesizing module 'design_main_project_xlconcat_0_2' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_xlconcat_0_2/synth/design_main_project_xlconcat_0_2.v:58]
+INFO: [Synth 8-638] synthesizing module 'xlconcat' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ipshared/2e37/xlconcat.v:14]
+INFO: [Synth 8-256] done synthesizing module 'xlconcat' (1#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ipshared/2e37/xlconcat.v:14]
+INFO: [Synth 8-256] done synthesizing module 'design_main_project_xlconcat_0_2' (2#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_xlconcat_0_2/synth/design_main_project_xlconcat_0_2.v:58]
+Finished Synthesize : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 332.227 ; gain = 122.543
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 332.227 ; gain = 122.543
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 332.227 ; gain = 122.543
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 332.227 ; gain = 122.543
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 438.926 ; gain = 229.242
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 438.926 ; gain = 229.242
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 441.254 ; gain = 231.570
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 441.254 ; gain = 231.570
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 441.254 ; gain = 231.570
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 441.254 ; gain = 231.570
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 441.254 ; gain = 231.570
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 441.254 ; gain = 231.570
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 441.254 ; gain = 231.570
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 441.254 ; gain = 231.570
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 518.598 ; gain = 298.813
+write_checkpoint: Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 897.395 ; gain = 378.797

@@ -1,0 +1,344 @@
+
+*** Running vivado
+    with args -log design_main_project_design_yeni_wrapper_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_main_project_design_yeni_wrapper_0_0.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source design_main_project_design_yeni_wrapper_0_0.tcl -notrace
+Command: synth_design -top design_main_project_design_yeni_wrapper_0_0 -part xc7a35tcpg236-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12200 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 296.684 ; gain = 86.699
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_main_project_design_yeni_wrapper_0_0' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/synth/design_main_project_design_yeni_wrapper_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_yeni_wrapper' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ipshared/5c78/imports/hdl/design_yeni_wrapper.v:12]
+INFO: [Synth 8-638] synthesizing module 'design_yeni' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ipshared/5c78/bd/design_yeni/hdl/design_yeni.v:13]
+INFO: [Synth 8-638] synthesizing module 'design_yeni_xup_and4_0_0' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_and4_0_0/synth/design_yeni_xup_and4_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xup_and4' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ipshared/8301/src/xup_and4.v:5]
+	Parameter DELAY bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xup_and4' (1#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ipshared/8301/src/xup_and4.v:5]
+INFO: [Synth 8-256] done synthesizing module 'design_yeni_xup_and4_0_0' (2#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_and4_0_0/synth/design_yeni_xup_and4_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_yeni_xup_and4_0_1' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_and4_0_1/synth/design_yeni_xup_and4_0_1.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_yeni_xup_and4_0_1' (3#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_and4_0_1/synth/design_yeni_xup_and4_0_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_yeni_xup_and4_1_0' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_and4_1_0/synth/design_yeni_xup_and4_1_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_yeni_xup_and4_1_0' (4#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_and4_1_0/synth/design_yeni_xup_and4_1_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_yeni_xup_and4_1_1' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_and4_1_1/synth/design_yeni_xup_and4_1_1.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_yeni_xup_and4_1_1' (5#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_and4_1_1/synth/design_yeni_xup_and4_1_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_yeni_xup_and4_1_2' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_and4_1_2/synth/design_yeni_xup_and4_1_2.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_yeni_xup_and4_1_2' (6#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_and4_1_2/synth/design_yeni_xup_and4_1_2.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_yeni_xup_and4_1_3' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_and4_1_3/synth/design_yeni_xup_and4_1_3.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_yeni_xup_and4_1_3' (7#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_and4_1_3/synth/design_yeni_xup_and4_1_3.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_yeni_xup_and4_1_4' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_and4_1_4/synth/design_yeni_xup_and4_1_4.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_yeni_xup_and4_1_4' (8#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_and4_1_4/synth/design_yeni_xup_and4_1_4.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_yeni_xup_and4_1_5' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_and4_1_5/synth/design_yeni_xup_and4_1_5.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_yeni_xup_and4_1_5' (9#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_and4_1_5/synth/design_yeni_xup_and4_1_5.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_yeni_xup_and4_1_6' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_and4_1_6/synth/design_yeni_xup_and4_1_6.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_yeni_xup_and4_1_6' (10#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_and4_1_6/synth/design_yeni_xup_and4_1_6.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_yeni_xup_inv_0_0' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_inv_0_0/synth/design_yeni_xup_inv_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xup_inv' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ipshared/67eb/src/xup_inv.v:5]
+	Parameter DELAY bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xup_inv' (11#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ipshared/67eb/src/xup_inv.v:5]
+INFO: [Synth 8-256] done synthesizing module 'design_yeni_xup_inv_0_0' (12#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_inv_0_0/synth/design_yeni_xup_inv_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_yeni_xup_inv_0_1' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_inv_0_1/synth/design_yeni_xup_inv_0_1.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_yeni_xup_inv_0_1' (13#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_inv_0_1/synth/design_yeni_xup_inv_0_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_yeni_xup_inv_0_2' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_inv_0_2/synth/design_yeni_xup_inv_0_2.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_yeni_xup_inv_0_2' (14#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_inv_0_2/synth/design_yeni_xup_inv_0_2.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_yeni_xup_or2_0_0' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_or2_0_0/synth/design_yeni_xup_or2_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xup_or2' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ipshared/c3d7/src/xup_or2.v:5]
+	Parameter DELAY bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xup_or2' (15#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ipshared/c3d7/src/xup_or2.v:5]
+INFO: [Synth 8-256] done synthesizing module 'design_yeni_xup_or2_0_0' (16#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_or2_0_0/synth/design_yeni_xup_or2_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_yeni_xup_or4_0_0' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_or4_0_0/synth/design_yeni_xup_or4_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xup_or4' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ipshared/8053/src/xup_or4.v:5]
+	Parameter DELAY bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xup_or4' (17#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ipshared/8053/src/xup_or4.v:5]
+INFO: [Synth 8-256] done synthesizing module 'design_yeni_xup_or4_0_0' (18#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_or4_0_0/synth/design_yeni_xup_or4_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_yeni_xup_or5_0_0' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_or5_0_0/synth/design_yeni_xup_or5_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xup_or5' [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ipshared/59e9/src/xup_or5.v:5]
+	Parameter DELAY bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xup_or5' (19#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ipshared/59e9/src/xup_or5.v:5]
+INFO: [Synth 8-256] done synthesizing module 'design_yeni_xup_or5_0_0' (20#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/ip/design_yeni_xup_or5_0_0/synth/design_yeni_xup_or5_0_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_yeni' (21#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ipshared/5c78/bd/design_yeni/hdl/design_yeni.v:13]
+INFO: [Synth 8-256] done synthesizing module 'design_yeni_wrapper' (22#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ipshared/5c78/imports/hdl/design_yeni_wrapper.v:12]
+INFO: [Synth 8-256] done synthesizing module 'design_main_project_design_yeni_wrapper_0_0' (23#1) [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/synth/design_main_project_design_yeni_wrapper_0_0.v:57]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 334.047 ; gain = 124.063
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 334.047 ; gain = 124.063
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/design_yeni_ooc.xdc] for cell 'inst/design_yeni_i'
+Finished Parsing XDC File [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/design_yeni_ooc.xdc] for cell 'inst/design_yeni_i'
+Parsing XDC File [C:/Users/life/project_1/project_1.runs/design_main_project_design_yeni_wrapper_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/life/project_1/project_1.runs/design_main_project_design_yeni_wrapper_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.222 . Memory (MB): peak = 608.125 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 608.125 ; gain = 398.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 608.125 ; gain = 398.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst/design_yeni_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_yeni_i/xup_and4_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_yeni_i/xup_and4_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_yeni_i/xup_and4_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_yeni_i/xup_and4_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_yeni_i/xup_and4_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_yeni_i/xup_and4_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_yeni_i/xup_and4_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_yeni_i/xup_and4_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_yeni_i/xup_and4_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_yeni_i/xup_inv_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_yeni_i/xup_inv_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_yeni_i/xup_inv_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_yeni_i/xup_or2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_yeni_i/xup_or4_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/design_yeni_i/xup_or5_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 608.125 ; gain = 398.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 608.125 ; gain = 398.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 608.125 ; gain = 398.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 608.125 ; gain = 398.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 608.125 ; gain = 398.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 608.125 ; gain = 398.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 608.125 ; gain = 398.141
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 608.125 ; gain = 398.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 608.125 ; gain = 398.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 608.125 ; gain = 398.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 608.125 ; gain = 398.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 608.125 ; gain = 398.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     3|
+|2     |LUT2 |     1|
+|3     |LUT4 |    10|
+|4     |LUT5 |     1|
++------+-----+------+
+
+Report Instance Areas: 
++------+------------------+-------------------------+------+
+|      |Instance          |Module                   |Cells |
++------+------------------+-------------------------+------+
+|1     |top               |                         |    15|
+|2     |  inst            |design_yeni_wrapper      |    15|
+|3     |    design_yeni_i |design_yeni              |    15|
+|4     |      xup_and4_0  |design_yeni_xup_and4_0_0 |     1|
+|5     |        inst      |xup_and4_7               |     1|
+|6     |      xup_and4_1  |design_yeni_xup_and4_0_1 |     1|
+|7     |        inst      |xup_and4_6               |     1|
+|8     |      xup_and4_2  |design_yeni_xup_and4_1_0 |     1|
+|9     |        inst      |xup_and4_5               |     1|
+|10    |      xup_and4_3  |design_yeni_xup_and4_1_1 |     1|
+|11    |        inst      |xup_and4_4               |     1|
+|12    |      xup_and4_4  |design_yeni_xup_and4_1_2 |     1|
+|13    |        inst      |xup_and4_3               |     1|
+|14    |      xup_and4_5  |design_yeni_xup_and4_1_3 |     1|
+|15    |        inst      |xup_and4_2               |     1|
+|16    |      xup_and4_6  |design_yeni_xup_and4_1_4 |     1|
+|17    |        inst      |xup_and4_1               |     1|
+|18    |      xup_and4_7  |design_yeni_xup_and4_1_5 |     1|
+|19    |        inst      |xup_and4_0               |     1|
+|20    |      xup_and4_8  |design_yeni_xup_and4_1_6 |     1|
+|21    |        inst      |xup_and4                 |     1|
+|22    |      xup_inv_0   |design_yeni_xup_inv_0_0  |     1|
+|23    |      xup_inv_1   |design_yeni_xup_inv_0_1  |     1|
+|24    |      xup_inv_2   |design_yeni_xup_inv_0_2  |     1|
+|25    |      xup_or2_0   |design_yeni_xup_or2_0_0  |     1|
+|26    |      xup_or4_0   |design_yeni_xup_or4_0_0  |     1|
+|27    |        inst      |xup_or4                  |     1|
+|28    |      xup_or5_0   |design_yeni_xup_or5_0_0  |     1|
+|29    |        inst      |xup_or5                  |     1|
++------+------------------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 608.125 ; gain = 398.141
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 608.125 ; gain = 113.871
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 608.125 ; gain = 398.141
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/design_yeni_ooc.xdc] for cell 'inst/design_yeni_i'
+Finished Parsing XDC File [c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/bd/design_yeni/design_yeni_ooc.xdc] for cell 'inst/design_yeni_i'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+55 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 608.125 ; gain = 387.949
+INFO: [Common 17-1381] The checkpoint 'C:/Users/life/project_1/project_1.runs/design_main_project_design_yeni_wrapper_0_0_synth_1/design_main_project_design_yeni_wrapper_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP c:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ip/design_main_project_design_yeni_wrapper_0_0/design_main_project_design_yeni_wrapper_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 28 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/life/project_1/project_1.runs/design_main_project_design_yeni_wrapper_0_0_synth_1/design_main_project_design_yeni_wrapper_0_0.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 608.125 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 28 19:39:19 2019...

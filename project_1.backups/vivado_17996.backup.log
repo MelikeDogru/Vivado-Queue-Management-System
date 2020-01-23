@@ -1,0 +1,90 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Dec 29 16:27:26 2019
+# Process ID: 17996
+# Current directory: C:/Users/life/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13584 C:\Users\life\project_1\project_1.xpr
+# Log file: C:/Users/life/project_1/vivado.log
+# Journal file: C:/Users/life/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/life/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/Library'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA00/packageA00.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/package_A10/package_A10.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA20/packageA20.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA22/packageA22.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA11/packageA11.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA01/packageA01.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/project_debouncer/project_debouncer.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/project_A21_yeni/project_A21_yeni.srcs'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 776.746 ; gain = 133.250
+open_bd_design {C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd}
+Adding cell -- xilinx.com:user:design_debouncer_wrapper:1.0 - design_debouncer_wrapper_0
+Adding cell -- xilinx.com:user:design_debouncer_wrapper:1.0 - design_debouncer_wrapper_1
+Adding cell -- xilinx.com:user:design_debouncer_wrapper:1.0 - design_debouncer_wrapper_2
+Adding cell -- xilinx.com:XUP:xup_clk_divider:1.0 - xup_clk_divider_0
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A00
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A10
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A20
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A21
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A22
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A11
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A01
+Adding cell -- xilinx.com:user:design_A00_wrapper:1.0 - design_A00_wrapper_0
+Adding cell -- xilinx.com:user:design_A10_wrapper:1.0 - design_A10_wrapper_0
+Adding cell -- xilinx.com:user:design_A20_wrapper:1.0 - design_A20_wrapper_0
+Adding cell -- xilinx.com:user:design_A22_wrapper:1.0 - design_A22_wrapper_0
+Adding cell -- xilinx.com:user:design_A11_wrapper:1.0 - design_A11_wrapper_0
+Adding cell -- xilinx.com:user:design_A01_wrapper:1.0 - design_A01_wrapper_0
+Adding cell -- xilinx.com:XUP:xup_2_to_1_mux_vector:1.0 - xup_2_to_1_mux_vector_0
+Adding cell -- xilinx.com:XUP:xup_2_to_1_mux_vector:1.0 - xup_2_to_1_mux_vector_1
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - concat_CR2
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding cell -- xilinx.com:XUP:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - concat_CR2_and_CR1
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - concat_CR1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3
+Adding cell -- xilinx.com:XUP:xup_or3:1.0 - xup_or3_1
+Adding cell -- xilinx.com:XUP:xup_or2:1.0 - xup_or2_0
+Adding cell -- xilinx.com:XUP:xup_or2:1.0 - xup_or2_1
+Adding cell -- xilinx.com:XUP:counters:1.0 - counter_NC
+Adding cell -- xilinx.com:XUP:counters:1.0 - counters_L2
+Adding cell -- xilinx.com:XUP:xup_or2:1.0 - xup_or2_LR2
+Adding cell -- xilinx.com:XUP:counters:1.0 - counters_0
+Adding cell -- xilinx.com:XUP:xup_or2:1.0 - xup_or2_LR1
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:XUP:seg7display:1.0 - seg7display_0
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:user:design_yeni_wrapper:1.0 - design_yeni_wrapper_0
+Adding cell -- xilinx.com:XUP:xup_or5:1.0 - xup_or5_0
+Adding cell -- xilinx.com:XUP:xup_or4:1.0 - xup_or4_0
+Adding cell -- xilinx.com:XUP:xup_or5:1.0 - xup_or5_1
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:XUP:xup_or4:1.0 - xup_or4_1
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_3
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A21/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A00/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A10/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A22/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A20/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A11/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A01/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_or2_1/y(undef) and /counter_NC/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_or2_LR2/y(undef) and /counters_L2/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_or2_LR1/y(undef) and /counters_0/clk(clk)
+Successfully read diagram <design_main_project> from BD file <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd>
+open_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 812.410 ; gain = 25.332
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 29 16:29:03 2019...

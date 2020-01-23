@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Dec 29 16:27:26 2019
+# Process ID: 17996
+# Current directory: C:/Users/life/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13584 C:\Users\life\project_1\project_1.xpr
+# Log file: C:/Users/life/project_1/vivado.log
+# Journal file: C:/Users/life/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/life/project_1/project_1.xpr
+open_bd_design {C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd}

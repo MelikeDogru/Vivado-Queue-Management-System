@@ -1,0 +1,125 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.5b  2016-09-06 bk=1.3687 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port SLOW -pg 1 -y 850 -defaultsOSRD
+preplace port L1 -pg 1 -y -60 -defaultsOSRD
+preplace port NC -pg 1 -y -100 -defaultsOSRD
+preplace port EN -pg 1 -y 90 -defaultsOSRD
+preplace port L2 -pg 1 -y -30 -defaultsOSRD
+preplace port dp -pg 1 -y 720 -defaultsOSRD
+preplace port RESET -pg 1 -y 140 -defaultsOSRD
+preplace port CLK -pg 1 -y 210 -defaultsOSRD
+preplace port CSR1 -pg 1 -y 400 -defaultsOSRD
+preplace port SEL -pg 1 -y 380 -defaultsOSRD
+preplace port CSR2 -pg 1 -y 490 -defaultsOSRD
+preplace portBus an -pg 1 -y 640 -defaultsOSRD
+preplace portBus seg -pg 1 -y 580 -defaultsOSRD
+preplace inst xup_and2_2 -pg 1 -lvl 8 -y 820 -defaultsOSRD
+preplace inst xup_or5_1 -pg 1 -lvl 7 -y 710 -defaultsOSRD
+preplace inst dff_A01 -pg 1 -lvl 21 -y 50 -defaultsOSRD
+preplace inst design_debouncer_wrapper_2 -pg 1 -lvl 12 -y 160 -defaultsOSRD
+preplace inst xup_and2_3 -pg 1 -lvl 7 -y 900 -defaultsOSRD
+preplace inst concat_CR2_and_CR1 -pg 1 -lvl 11 -y 530 -defaultsOSRD
+preplace inst xup_or3_0 -pg 1 -lvl 3 -y -250 -defaultsOSRD
+preplace inst xup_or4_0 -pg 1 -lvl 22 -y 540 -defaultsOSRD
+preplace inst xup_or3_1 -pg 1 -lvl 3 -y 460 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 10 -y -310 -defaultsOSRD
+preplace inst design_A11_wrapper_0 -pg 1 -lvl 18 -y 350 -defaultsOSRD
+preplace inst xup_or4_1 -pg 1 -lvl 6 -y 890 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 10 -y -200 -defaultsOSRD
+preplace inst xup_inv_0 -pg 1 -lvl 1 -y 610 -defaultsOSRD
+preplace inst counters_L2 -pg 1 -lvl 9 -y 630 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 3 -y 630 -defaultsOSRD
+preplace inst design_A10_wrapper_0 -pg 1 -lvl 16 -y -340 -defaultsOSRD
+preplace inst design_A00_wrapper_0 -pg 1 -lvl 13 -y -230 -defaultsOSRD
+preplace inst design_yeni_wrapper_0 -pg 1 -lvl 14 -y 110 -defaultsOSRD
+preplace inst xup_inv_1 -pg 1 -lvl 8 -y -310 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 13 -y 570 -defaultsOSRD
+preplace inst xlconstant_3 -pg 1 -lvl 3 -y 710 -defaultsOSRD
+preplace inst design_A01_wrapper_0 -pg 1 -lvl 20 -y 310 -defaultsOSRD
+preplace inst design_A22_wrapper_0 -pg 1 -lvl 17 -y 330 -defaultsOSRD
+preplace inst seg7display_0 -pg 1 -lvl 15 -y 610 -defaultsOSRD
+preplace inst xup_or2_LR1 -pg 1 -lvl 8 -y 920 -defaultsOSRD -resize 95 60
+preplace inst counter_NC -pg 1 -lvl 5 -y 80 -defaultsOSRD
+preplace inst concat_CR1 -pg 1 -lvl 4 -y 550 -defaultsOSRD
+preplace inst xup_or2_LR2 -pg 1 -lvl 8 -y 640 -defaultsOSRD
+preplace inst concat_CR2 -pg 1 -lvl 11 -y -310 -defaultsOSRD
+preplace inst dff_A20 -pg 1 -lvl 19 -y -60 -defaultsOSRD
+preplace inst dff_A21 -pg 1 -lvl 16 -y 230 -defaultsOSRD
+preplace inst dff_A22 -pg 1 -lvl 18 -y 140 -defaultsOSRD
+preplace inst xup_clk_divider_0 -pg 1 -lvl 11 -y 90 -defaultsOSRD
+preplace inst xup_or2_0 -pg 1 -lvl 2 -y 670 -defaultsOSRD
+preplace inst dff_A10 -pg 1 -lvl 18 -y -70 -defaultsOSRD
+preplace inst xup_and2_0 -pg 1 -lvl 2 -y 530 -defaultsOSRD
+preplace inst counters_0 -pg 1 -lvl 9 -y 760 -defaultsOSRD
+preplace inst xup_or2_1 -pg 1 -lvl 3 -y 90 -defaultsOSRD
+preplace inst xup_2_to_1_mux_vector_0 -pg 1 -lvl 12 -y 420 -defaultsOSRD
+preplace inst design_A20_wrapper_0 -pg 1 -lvl 19 -y -260 -defaultsOSRD
+preplace inst dff_A11 -pg 1 -lvl 19 -y 140 -defaultsOSRD
+preplace inst design_debouncer_wrapper_0 -pg 1 -lvl 12 -y -150 -defaultsOSRD
+preplace inst xup_or5_0 -pg 1 -lvl 22 -y 390 -defaultsOSRD
+preplace inst xup_and2_1 -pg 1 -lvl 5 -y -200 -defaultsOSRD
+preplace inst xup_2_to_1_mux_vector_1 -pg 1 -lvl 12 -y 590 -defaultsOSRD
+preplace inst dff_A00 -pg 1 -lvl 16 -y -160 -defaultsOSRD
+preplace inst design_debouncer_wrapper_1 -pg 1 -lvl 12 -y 10 -defaultsOSRD
+preplace netloc seg7display_0_an_l 1 15 8 3510 640 NJ 640 NJ 640 NJ 640 NJ 640 NJ 640 NJ 640 NJ
+preplace netloc counters_0_bcd_count2 1 9 3 NJ 760 NJ 760 2420J
+preplace netloc xlconstant_1_dout 1 10 1 2080
+preplace netloc concat_CR1_dout 1 4 7 NJ 550 NJ 550 NJ 550 NJ 550 NJ 550 NJ 550 2100J
+preplace netloc xup_or3_0_y 1 3 2 NJ -250 720
+preplace netloc xlconstant_2_dout 1 3 1 530
+preplace netloc SEL_1 1 0 12 NJ 380 NJ 380 NJ 380 NJ 380 NJ 380 NJ 380 NJ 380 NJ 380 NJ 380 NJ 380 NJ 380 2400
+preplace netloc design_A00_wrapper_0_O_00 1 13 3 NJ -230 NJ -230 3550J
+preplace netloc CLK_1 1 0 15 -280J -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 2080 -10 2430 -240 2710J -130 NJ -130 3200
+preplace netloc xup_or5_1_y 1 7 1 1480
+preplace netloc design_yeni_wrapper_0_out_A21 1 14 2 NJ 110 3530
+preplace netloc xup_or4_0_y 1 22 1 5500
+preplace netloc xup_or5_0_y 1 22 1 5500
+preplace netloc xup_or3_1_y 1 0 4 -300 390 NJ 390 NJ 390 540J
+preplace netloc xup_and2_3_y 1 7 1 1500
+preplace netloc xup_or2_LR2_y 1 8 1 1750
+preplace netloc design_A20_wrapper_0_O_20 1 18 2 4510 -370 4770
+preplace netloc xup_and2_2_y 1 7 2 1510 970 1730
+preplace netloc seg7display_0_a_to_g 1 15 8 3580J 620 NJ 620 NJ 620 NJ 620 NJ 620 NJ 620 NJ 620 5500J
+preplace netloc design_A11_wrapper_0_O_11 1 18 1 4440
+preplace netloc design_debouncer_wrapper_2_X0 1 6 14 1260 220 NJ 220 NJ 220 NJ 220 NJ 220 NJ 220 2720 220 2960 220 NJ 220 3500J -20 3850J 240 4110J 240 4460J 240 4750J
+preplace netloc xup_clk_divider_0_clkout 1 11 12 2410 850 NJ 850 NJ 850 NJ 850 3600J 850 NJ 850 4120J 850 4490J 850 NJ 850 5000J 850 NJ 850 NJ
+preplace netloc xup_or2_0_y 1 1 2 40 460 260
+preplace netloc seg7display_0_dp_l 1 15 8 N 630 NJ 630 NJ 630 NJ 630 NJ 630 NJ 630 NJ 630 5500J
+preplace netloc xup_2_to_1_mux_vector_1_y 1 12 1 2720
+preplace netloc design_debouncer_wrapper_0_X0 1 2 18 300 350 NJ 350 NJ 350 NJ 350 NJ 350 NJ 350 NJ 350 NJ 350 NJ 350 NJ 350 2740 350 2990 350 NJ 350 3580J 350 3840J 410 4100J 450 4450J 350 NJ
+preplace netloc concat_CR2_dout 1 10 2 2110 -390 2430
+preplace netloc xup_inv_0_y 1 1 1 10
+preplace netloc xlconcat_0_dout 1 13 2 NJ 570 3190
+preplace netloc counters_0_bcd_count 1 5 7 970J 420 NJ 420 NJ 420 NJ 420 NJ 420 NJ 420 NJ
+preplace netloc xlconstant_0_dout 1 10 1 2080
+preplace netloc design_A22_wrapper_0_O_22 1 17 1 4080
+preplace netloc design_A10_wrapper_0_O_10 1 16 2 NJ -340 4120
+preplace netloc L1_1 1 0 12 -280J -100 NJ -100 NJ -100 NJ -100 NJ -100 NJ -100 NJ -100 NJ -100 NJ -100 NJ -100 NJ -100 2420
+preplace netloc xup_or4_1_y 1 6 1 1230
+preplace netloc xup_2_to_1_mux_vector_0_y 1 12 1 2710
+preplace netloc dff_A01_q 1 2 20 300J -410 NJ -410 NJ -410 980J -410 NJ -410 NJ -410 NJ -410 NJ -410 NJ -410 NJ -410 2690 -410 NJ -410 NJ -410 3560J 60 NJ 60 4130J 60 NJ 60 4760J 130 NJ 130 5260
+preplace netloc EN_1 1 0 21 -300J 240 NJ 240 NJ 240 NJ 240 NJ 240 NJ 240 NJ 240 NJ 240 NJ 240 NJ 240 NJ 240 NJ 240 NJ 240 NJ 240 NJ 240 3570J -50 NJ -50 4160 10 4510 50 NJ 50 4980J
+preplace netloc xup_or2_LR1_y 1 8 1 1770
+preplace netloc xup_or2_1_y 1 3 2 NJ 90 720J
+preplace netloc dff_A22_q 1 2 20 300J 570 520J 660 NJ 660 950J 660 1240J -150 1490J -150 1740J 880 NJ 880 2090 880 NJ 880 NJ 880 2980 880 NJ 880 NJ 880 3870J 880 4150 880 4400 880 NJ 880 NJ 880 5280J
+preplace netloc dff_A00_q 1 12 5 2740 -460 NJ -460 NJ -460 NJ -460 3870
+preplace netloc RESET_1 1 0 21 -310J 260 NJ 260 270J 260 NJ 260 730J 260 NJ 260 NJ 260 1490J 260 1760J 260 NJ 260 NJ 260 NJ 260 NJ 260 NJ 260 3210J 260 3590J -40 NJ -40 4150 50 4500 30 NJ 30 4990J
+preplace netloc L2_1 1 0 12 -290J 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 N
+preplace netloc design_A01_wrapper_0_O_01 1 20 1 4970
+preplace netloc design_debouncer_wrapper_1_X0 1 7 13 1510J 330 NJ 330 NJ 330 NJ 330 NJ 330 2730 330 2970 330 NJ 330 3540J 330 3860J 210 4070J 460 4430J 310 NJ
+preplace netloc NC_1 1 0 12 -310J -130 NJ -130 NJ -130 NJ -130 NJ -130 NJ -130 NJ -130 NJ -130 NJ -130 NJ -130 NJ -130 N
+preplace netloc xup_inv_1_y 1 4 5 730 -390 NJ -390 NJ -390 NJ -390 1740
+preplace netloc xup_and2_0_y 1 2 2 NJ 530 530J
+preplace netloc dff_A21_q 1 2 20 280J -60 NJ -60 NJ -60 990J -60 1230J -60 NJ -60 NJ -60 NJ -60 NJ -60 NJ -60 NJ -60 2980 -60 NJ -60 3510 -60 3870 -60 4100J 220 4420J 220 NJ 220 NJ 220 5240J
+preplace netloc dff_A10_q 1 1 21 20J -80 NJ -80 NJ -80 NJ -80 NJ -80 1250J -80 NJ -80 NJ -80 NJ -80 NJ -80 NJ -80 2690 -80 NJ -80 NJ -80 3480J -80 NJ -80 4090J 690 4410 690 NJ 690 NJ 690 5270J
+preplace netloc xup_and2_1_y 1 5 6 NJ -200 NJ -200 NJ -200 NJ -200 1950J -400 2080J
+preplace netloc counters_0_bcd_count1 1 9 3 NJ 630 NJ 630 2430J
+preplace netloc xlconstant_3_dout 1 3 1 540
+preplace netloc concat_CR2_and_CR1_dout 1 11 1 2390
+preplace netloc dff_A20_q 1 2 20 290J -70 NJ -70 NJ -70 NJ -70 1220J -70 NJ -70 NJ -70 NJ -70 NJ -70 NJ -70 NJ -70 2990 -70 NJ -70 3490J -70 NJ -70 4100J -280 4470J -140 4770 -60 NJ -60 5280J
+preplace netloc dff_A11_q 1 1 21 30J 310 260J 310 NJ 310 NJ 310 960J 310 1210J 310 NJ 310 NJ 310 NJ 310 NJ 310 NJ 310 2700 310 2950J 310 NJ 310 3520J 310 3840J 30 4140J 30 4480J 40 4770 190 NJ 190 5250J
+levelinfo -pg 1 -330 -100 150 410 630 840 1100 1370 1620 1860 2020 2260 2570 2850 3090 3350 3720 3970 4280 4630 4870 5120 5390 5520 -top -660 -bot 980
+",
+}
+0

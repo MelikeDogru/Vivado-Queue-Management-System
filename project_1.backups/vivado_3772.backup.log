@@ -1,0 +1,1301 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat Dec 28 16:06:01 2019
+# Process ID: 3772
+# Current directory: C:/Users/life/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18312 C:\Users\life\project_1\project_1.xpr
+# Log file: C:/Users/life/project_1/vivado.log
+# Journal file: C:/Users/life/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/life/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/Library'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA00/packageA00.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/package_A10/package_A10.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA20/packageA20.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA21/packageA21.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA22/packageA22.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA11/packageA11.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA01/packageA01.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/project_debouncer/project_debouncer.srcs'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_bd_design {C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd}
+Adding cell -- xilinx.com:user:design_debouncer_wrapper:1.0 - design_debouncer_wrapper_0
+Adding cell -- xilinx.com:user:design_debouncer_wrapper:1.0 - design_debouncer_wrapper_1
+Adding cell -- xilinx.com:user:design_debouncer_wrapper:1.0 - design_debouncer_wrapper_2
+Adding cell -- xilinx.com:XUP:xup_clk_divider:1.0 - xup_clk_divider_0
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A00
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A10
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A20
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A21
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A22
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A11
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A01
+Adding cell -- xilinx.com:user:design_A00_wrapper:1.0 - design_A00_wrapper_0
+Adding cell -- xilinx.com:user:design_A10_wrapper:1.0 - design_A10_wrapper_0
+Adding cell -- xilinx.com:user:design_A20_wrapper:1.0 - design_A20_wrapper_0
+Adding cell -- xilinx.com:user:design_A21_wrapper:1.0 - design_A21_wrapper_0
+Adding cell -- xilinx.com:user:design_A22_wrapper:1.0 - design_A22_wrapper_0
+Adding cell -- xilinx.com:user:design_A11_wrapper:1.0 - design_A11_wrapper_0
+Adding cell -- xilinx.com:user:design_A01_wrapper:1.0 - design_A01_wrapper_0
+Adding cell -- xilinx.com:XUP:xup_2_to_1_mux_vector:1.0 - xup_2_to_1_mux_vector_0
+Adding cell -- xilinx.com:XUP:xup_2_to_1_mux_vector:1.0 - xup_2_to_1_mux_vector_1
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - concat_CR2
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding cell -- xilinx.com:XUP:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - concat_CR2_and_CR1
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - concat_CR1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3
+Adding cell -- xilinx.com:XUP:xup_or3:1.0 - xup_or3_1
+Adding cell -- xilinx.com:XUP:xup_or2:1.0 - xup_or2_0
+Adding cell -- xilinx.com:XUP:xup_or2:1.0 - xup_or2_1
+Adding cell -- xilinx.com:XUP:counters:1.0 - counters_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A21/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A00/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A10/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A22/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A20/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A11/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A01/clk(clk)
+Successfully read diagram <design_main_project> from BD file <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd>
+open_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 805.098 ; gain = 4.379
+connect_bd_net [get_bd_pins xup_or2_1/y] [get_bd_pins counters_0/clk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_or2_1/y(undef) and /counters_0/clk(clk)
+connect_bd_net [get_bd_ports RESET] [get_bd_pins counters_0/clr]
+connect_bd_net [get_bd_pins counters_0/bcd_count] [get_bd_pins xup_2_to_1_mux_vector_0/b]
+save_bd_design
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd> 
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ui/bd_82565834.ui> 
+set_property name counter_NC [get_bd_cells counters_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:counters:1.0 counters_0
+endgroup
+set_property -dict [list CONFIG.TYPE {2}] [get_bd_cells counters_0]
+connect_bd_net [get_bd_pins counters_0/bcd_count] [get_bd_pins xup_2_to_1_mux_vector_1/a]
+set_property location {5.5 1018 633} [get_bd_cells counters_0]
+connect_bd_net [get_bd_ports RESET] [get_bd_pins counters_0/clr]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_or2:1.0 xup_or2_2
+endgroup
+connect_bd_net [get_bd_pins xup_or2_2/y] [get_bd_pins counters_0/clk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_or2_2/y(undef) and /counters_0/clk(clk)
+set_property location {4.5 725 674} [get_bd_cells xup_or2_2]
+connect_bd_net [get_bd_ports RESET] [get_bd_pins xup_or2_2/b]
+connect_bd_net [get_bd_pins design_debouncer_wrapper_2/X0] [get_bd_pins xup_or2_2/a]
+save_bd_design
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd> 
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ui/bd_82565834.ui> 
+set_property name counters_L2 [get_bd_cells counters_0]
+set_property name xup_or2_LR2 [get_bd_cells xup_or2_2]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:counters:1.0 counters_0
+endgroup
+set_property -dict [list CONFIG.TYPE {2}] [get_bd_cells counters_0]
+connect_bd_net [get_bd_pins counters_0/bcd_count] [get_bd_pins xup_2_to_1_mux_vector_0/a]
+copy_bd_objs /  [get_bd_cells {xup_or2_LR2}]
+set_property location {5 777 827} [get_bd_cells xup_or2_LR3]
+connect_bd_net [get_bd_pins xup_or2_LR3/y] [get_bd_pins counters_0/clk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_or2_LR3/y(undef) and /counters_0/clk(clk)
+connect_bd_net [get_bd_ports RESET] [get_bd_pins xup_or2_LR3/b]
+connect_bd_net [get_bd_pins design_debouncer_wrapper_1/X0] [get_bd_pins xup_or2_LR3/a]
+save_bd_design
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd> 
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ui/bd_82565834.ui> 
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconcat:2.1 xlconcat_0
+endgroup
+set_property location {10 2086 571} [get_bd_cells xlconcat_0]
+startgroup
+set_property -dict [list CONFIG.IN1_WIDTH.VALUE_SRC USER CONFIG.IN0_WIDTH.VALUE_SRC USER] [get_bd_cells xlconcat_0]
+set_property -dict [list CONFIG.IN0_WIDTH {8} CONFIG.IN1_WIDTH {8}] [get_bd_cells xlconcat_0]
+endgroup
+connect_bd_net [get_bd_pins xup_2_to_1_mux_vector_0/y] [get_bd_pins xlconcat_0/In0]
+connect_bd_net [get_bd_pins xup_2_to_1_mux_vector_1/y] [get_bd_pins xlconcat_0/In1]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:seg7display:1.0 seg7display_0
+endgroup
+set_property location {11 2422 607} [get_bd_cells seg7display_0]
+connect_bd_net [get_bd_pins xlconcat_0/dout] [get_bd_pins seg7display_0/x_l]
+connect_bd_net [get_bd_ports CLK] [get_bd_pins seg7display_0/clk]
+connect_bd_net [get_bd_ports RESET] [get_bd_pins seg7display_0/reset]
+create_bd_port -dir O -from 6 -to 0 seg
+set_property location {4411 585} [get_bd_ports seg]
+startgroup
+connect_bd_net [get_bd_ports seg] [get_bd_pins seg7display_0/a_to_g]
+endgroup
+create_bd_port -dir O -from 3 -to 0 an
+startgroup
+connect_bd_net [get_bd_ports an] [get_bd_pins seg7display_0/an_l]
+endgroup
+set_property location {4304 644} [get_bd_ports an]
+create_bd_port -dir O dp
+set_property location {4310 721} [get_bd_ports dp]
+connect_bd_net [get_bd_ports dp] [get_bd_pins seg7display_0/dp_l]
+save_bd_design
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd> 
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ui/bd_82565834.ui> 
+create_bd_port -dir O SLOW
+set_property location {4535 851} [get_bd_ports SLOW]
+connect_bd_net [get_bd_ports SLOW] [get_bd_pins xup_clk_divider_0/clkout]
+create_bd_port -dir O CSR1
+set_property location {4541 396} [get_bd_ports CSR1]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_nor2:1.0 xup_nor2_0
+endgroup
+set_property location {17 4208 405} [get_bd_cells xup_nor2_0]
+connect_bd_net [get_bd_ports CSR1] [get_bd_pins xup_nor2_0/y]
+connect_bd_net [get_bd_pins dff_A00/q] [get_bd_pins xup_nor2_0/a]
+connect_bd_net [get_bd_pins dff_A01/q] [get_bd_pins xup_nor2_0/b]
+create_bd_port -dir O CSR2
+set_property location {4360 492} [get_bd_ports CSR2]
+copy_bd_objs /  [get_bd_cells {xup_nor2_0}]
+undo
+INFO: [Common 17-17] undo 'copy_bd_objs /  [get_bd_cells {xup_nor2_0}]'
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_nor2:1.0 xup_nor2_1
+endgroup
+set_property location {17 4198 506} [get_bd_cells xup_nor2_1]
+connect_bd_net [get_bd_ports CSR2] [get_bd_pins xup_nor2_1/y]
+connect_bd_net [get_bd_pins dff_A10/q] [get_bd_pins xup_nor2_1/a]
+connect_bd_net [get_bd_pins dff_A20/q] [get_bd_pins xup_nor2_1/b]
+save_bd_design
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd> 
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ui/bd_82565834.ui> 
+make_wrapper -files [get_files C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd] -top
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/counters_0/clr
+
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.v
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd> 
+import_files -force -norecurse C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+add_files -fileset constrs_1 -norecurse C:/Users/life/Desktop/Basys-3-Master.xdc
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [BD 41-1662] The design 'design_main_project.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/counters_0/clr
+
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.v
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_clk_divider_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A00 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A21 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A22 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A01 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A00_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A10_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A20_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A21_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A22_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A11_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A01_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR2_and_CR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counter_NC .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counters_L2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_LR2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counters_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_LR3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block seg7display_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_nor2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_nor2_1 .
+Exporting to file C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hw_handoff/design_main_project.hwh
+Generated Block Design Tcl file C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hw_handoff/design_main_project_bd.tcl
+Generated Hardware Definition File C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.hwdef
+[Sat Dec 28 16:27:37 2019] Launched design_main_project_counters_0_1_synth_1, design_main_project_xup_or2_1_0_synth_1, design_main_project_design_debouncer_wrapper_0_1_synth_1, design_main_project_xup_clk_divider_0_0_synth_1, design_main_project_design_debouncer_wrapper_0_2_synth_1, design_main_project_xup_or2_0_0_synth_1, design_main_project_xup_or3_1_0_synth_1, design_main_project_design_debouncer_wrapper_0_0_synth_1, design_main_project_xup_2_to_1_mux_vector_0_1_synth_1, design_main_project_design_A01_wrapper_0_0_synth_1, design_main_project_design_A22_wrapper_0_0_synth_1, design_main_project_design_A10_wrapper_0_1_synth_1, design_main_project_design_A00_wrapper_0_0_synth_1, design_main_project_dff_A20_3_synth_1, design_main_project_design_A21_wrapper_0_0_synth_1, design_main_project_dff_A20_2_synth_1, design_main_project_dff_A20_0_synth_1, design_main_project_dff_A00_0_synth_1, design_main_project_xup_dff_en_reset_0_0_synth_1, design_main_project_xup_2_to_1_mux_vector_0_0_synth_1, design_main_project_design_A11_wrapper_0_0_synth_1, design_main_project_design_A20_wrapper_0_0_synth_1, design_main_project_dff_A20_1_synth_1, design_main_project_dff_A10_0_synth_1, design_main_project_xlconstant_3_0_synth_1, design_main_project_xlconstant_1_0_synth_1, design_main_project_xlconcat_0_2_synth_1, design_main_project_xlconcat_0_1_synth_1, design_main_project_xup_or3_0_0_synth_1, design_main_project_xlconstant_0_1_synth_1, design_main_project_xlconstant_0_0_synth_1, design_main_project_xlconcat_0_0_synth_1, design_main_project_xlconcat_0_3_synth_1, design_main_project_seg7display_0_0_synth_1, design_main_project_counters_0_0_synth_1, design_main_project_xup_or2_2_0_synth_1, design_main_project_xup_nor2_0_0_synth_1, design_main_project_xup_nor2_1_0_synth_1, design_main_project_counters_0_2_synth_1, design_main_project_xup_or2_LR2_0_synth_1, synth_1...
+Run output will be captured here:
+design_main_project_counters_0_1_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_counters_0_1_synth_1/runme.log
+design_main_project_xup_or2_1_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xup_or2_1_0_synth_1/runme.log
+design_main_project_design_debouncer_wrapper_0_1_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_design_debouncer_wrapper_0_1_synth_1/runme.log
+design_main_project_xup_clk_divider_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xup_clk_divider_0_0_synth_1/runme.log
+design_main_project_design_debouncer_wrapper_0_2_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_design_debouncer_wrapper_0_2_synth_1/runme.log
+design_main_project_xup_or2_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xup_or2_0_0_synth_1/runme.log
+design_main_project_xup_or3_1_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xup_or3_1_0_synth_1/runme.log
+design_main_project_design_debouncer_wrapper_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_design_debouncer_wrapper_0_0_synth_1/runme.log
+design_main_project_xup_2_to_1_mux_vector_0_1_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xup_2_to_1_mux_vector_0_1_synth_1/runme.log
+design_main_project_design_A01_wrapper_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_design_A01_wrapper_0_0_synth_1/runme.log
+design_main_project_design_A22_wrapper_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_design_A22_wrapper_0_0_synth_1/runme.log
+design_main_project_design_A10_wrapper_0_1_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_design_A10_wrapper_0_1_synth_1/runme.log
+design_main_project_design_A00_wrapper_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_design_A00_wrapper_0_0_synth_1/runme.log
+design_main_project_dff_A20_3_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_dff_A20_3_synth_1/runme.log
+design_main_project_design_A21_wrapper_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_design_A21_wrapper_0_0_synth_1/runme.log
+design_main_project_dff_A20_2_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_dff_A20_2_synth_1/runme.log
+design_main_project_dff_A20_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_dff_A20_0_synth_1/runme.log
+design_main_project_dff_A00_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_dff_A00_0_synth_1/runme.log
+design_main_project_xup_dff_en_reset_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xup_dff_en_reset_0_0_synth_1/runme.log
+design_main_project_xup_2_to_1_mux_vector_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xup_2_to_1_mux_vector_0_0_synth_1/runme.log
+design_main_project_design_A11_wrapper_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_design_A11_wrapper_0_0_synth_1/runme.log
+design_main_project_design_A20_wrapper_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_design_A20_wrapper_0_0_synth_1/runme.log
+design_main_project_dff_A20_1_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_dff_A20_1_synth_1/runme.log
+design_main_project_dff_A10_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_dff_A10_0_synth_1/runme.log
+design_main_project_xlconstant_3_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xlconstant_3_0_synth_1/runme.log
+design_main_project_xlconstant_1_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xlconstant_1_0_synth_1/runme.log
+design_main_project_xlconcat_0_2_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xlconcat_0_2_synth_1/runme.log
+design_main_project_xlconcat_0_1_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xlconcat_0_1_synth_1/runme.log
+design_main_project_xup_or3_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xup_or3_0_0_synth_1/runme.log
+design_main_project_xlconstant_0_1_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xlconstant_0_1_synth_1/runme.log
+design_main_project_xlconstant_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xlconstant_0_0_synth_1/runme.log
+design_main_project_xlconcat_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xlconcat_0_0_synth_1/runme.log
+design_main_project_xlconcat_0_3_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xlconcat_0_3_synth_1/runme.log
+design_main_project_seg7display_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_seg7display_0_0_synth_1/runme.log
+design_main_project_counters_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_counters_0_0_synth_1/runme.log
+design_main_project_xup_or2_2_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xup_or2_2_0_synth_1/runme.log
+design_main_project_xup_nor2_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xup_nor2_0_0_synth_1/runme.log
+design_main_project_xup_nor2_1_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xup_nor2_1_0_synth_1/runme.log
+design_main_project_counters_0_2_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_counters_0_2_synth_1/runme.log
+design_main_project_xup_or2_LR2_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xup_or2_LR2_0_synth_1/runme.log
+synth_1: C:/Users/life/project_1/project_1.runs/synth_1/runme.log
+[Sat Dec 28 16:27:40 2019] Launched impl_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:27 ; elapsed = 00:00:50 . Memory (MB): peak = 1077.625 ; gain = 81.836
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698789A
+set_property PROGRAM.FILE {C:/Users/life/project_1/project_1.runs/impl_1/design_main_project_wrapper.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/life/project_1/project_1.runs/impl_1/design_main_project_wrapper.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698789A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698789A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698789A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+open_bd_design {C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd}
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698789A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698789A
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and2:1.0 xup_and2_0
+endgroup
+delete_bd_objs [get_bd_nets xup_or2_0_y]
+set_property location {2 110 527} [get_bd_cells xup_and2_0]
+connect_bd_net [get_bd_pins xup_and2_0/y] [get_bd_pins concat_CR1/In0]
+connect_bd_net [get_bd_pins xup_or2_0/y] [get_bd_pins xup_and2_0/b]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_inv:1.0 xup_inv_0
+endgroup
+set_property location {2 138 903} [get_bd_cells xup_inv_0]
+connect_bd_net [get_bd_pins xup_inv_0/y] [get_bd_pins xup_and2_0/a]
+connect_bd_net [get_bd_pins xup_or3_1/y] [get_bd_pins xup_inv_0/a]
+set_property location {0.5 -99 610} [get_bd_cells xup_inv_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_inv:1.0 xup_inv_1
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_nand2:1.0 xup_nand2_0
+endgroup
+delete_bd_objs [get_bd_cells xup_nand2_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and2:1.0 xup_and2_1
+endgroup
+set_property location {5 897 -198} [get_bd_cells xup_and2_1]
+connect_bd_net [get_bd_pins xup_inv_1/y] [get_bd_pins xup_and2_1/a]
+delete_bd_objs [get_bd_nets xup_or3_0_y]
+connect_bd_net [get_bd_pins xup_or3_0/y] [get_bd_pins xup_and2_1/b]
+connect_bd_net [get_bd_pins xup_and2_1/y] [get_bd_pins concat_CR2/In0]
+connect_bd_net [get_bd_pins dff_A22/q] [get_bd_pins xup_inv_1/a]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698789A
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+make_wrapper -files [get_files C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd] -top
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/counters_0/clr
+
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.v
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd> 
+WARNING: [Vivado 12-3482] The generated wrapper file has already been imported into the project, the imported file is:
+'C:/Users/life/project_1/project_1.srcs/sources_1/imports/hdl/design_main_project_wrapper.v'
+import_files -force -norecurse C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+save_bd_design
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ui/bd_82565834.ui> 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [BD 41-1662] The design 'design_main_project.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/counters_0/clr
+
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.v
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_clk_divider_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A00 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A21 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A22 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A01 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A00_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A10_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A20_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A21_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A22_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A11_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A01_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR2_and_CR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counter_NC .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counters_L2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_LR2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counters_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_LR3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block seg7display_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_nor2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_nor2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_1 .
+Exporting to file C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hw_handoff/design_main_project.hwh
+Generated Block Design Tcl file C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hw_handoff/design_main_project_bd.tcl
+Generated Hardware Definition File C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.hwdef
+[Sat Dec 28 16:51:51 2019] Launched design_main_project_xup_and2_0_0_synth_1, design_main_project_xup_inv_0_0_synth_1, design_main_project_xup_inv_1_0_synth_1, design_main_project_xup_and2_1_0_synth_1, synth_1...
+Run output will be captured here:
+design_main_project_xup_and2_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xup_and2_0_0_synth_1/runme.log
+design_main_project_xup_inv_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xup_inv_0_0_synth_1/runme.log
+design_main_project_xup_inv_1_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xup_inv_1_0_synth_1/runme.log
+design_main_project_xup_and2_1_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xup_and2_1_0_synth_1/runme.log
+synth_1: C:/Users/life/project_1/project_1.runs/synth_1/runme.log
+[Sat Dec 28 16:51:52 2019] Launched impl_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 1287.406 ; gain = 36.043
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/life/project_1/project_1.runs/impl_1/design_main_project_wrapper.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+open_bd_design {C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd}
+connect_bd_net [get_bd_ports RESET] [get_bd_pins counters_0/clr]
+set_property name xup_or2_LR1 [get_bd_cells xup_or2_LR3]
+delete_bd_objs [get_bd_nets concat_CR1_dout]
+delete_bd_objs [get_bd_nets concat_CR2_dout]
+connect_bd_net [get_bd_pins concat_CR2/dout] [get_bd_pins concat_CR2_and_CR1/In1]
+connect_bd_net [get_bd_pins concat_CR1/dout] [get_bd_pins concat_CR2_and_CR1/In0]
+save_bd_design
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd> 
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ui/bd_82565834.ui> 
+create_bd_port -dir O A00
+connect_bd_net [get_bd_ports A00] [get_bd_pins dff_A00/q]
+create_bd_port -dir O A10
+connect_bd_net [get_bd_ports A10] [get_bd_pins dff_A10/q]
+create_bd_port -dir O A20
+connect_bd_net [get_bd_ports A20] [get_bd_pins dff_A20/q]
+create_bd_port -dir O A21
+connect_bd_net [get_bd_ports A21] [get_bd_pins dff_A21/q]
+create_bd_port -dir O A22
+connect_bd_net [get_bd_ports A22] [get_bd_pins dff_A22/q]
+create_bd_port -dir O A11
+connect_bd_net [get_bd_ports A11] [get_bd_pins dff_A11/q]
+create_bd_port -dir O A01
+connect_bd_net [get_bd_ports A01] [get_bd_pins dff_A01/q]
+make_wrapper -files [get_files C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd] -top
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.v
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd> 
+WARNING: [Vivado 12-3482] The generated wrapper file has already been imported into the project, the imported file is:
+'C:/Users/life/project_1/project_1.srcs/sources_1/imports/hdl/design_main_project_wrapper.v'
+import_files -force -norecurse C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [BD 41-1662] The design 'design_main_project.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.v
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_clk_divider_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A00 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A21 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A22 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A01 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A00_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A10_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A20_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A21_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A22_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A11_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A01_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR2_and_CR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counter_NC .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counters_L2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_LR2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counters_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_LR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block seg7display_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_nor2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_nor2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_1 .
+Exporting to file C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hw_handoff/design_main_project.hwh
+Generated Block Design Tcl file C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hw_handoff/design_main_project_bd.tcl
+Generated Hardware Definition File C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.hwdef
+[Sat Dec 28 17:08:05 2019] Launched synth_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/synth_1/runme.log
+[Sat Dec 28 17:08:05 2019] Launched impl_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1348.211 ; gain = 39.074
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/life/project_1/project_1.runs/impl_1/design_main_project_wrapper.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698789A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698789A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698789A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698789A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698789A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698789A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+open_bd_design {C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd}
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/Library'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA00/packageA00.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/package_A10/package_A10.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA20/packageA20.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA21/packageA21.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA22/packageA22.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA11/packageA11.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA01/packageA01.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/project_debouncer/project_debouncer.srcs'.
+report_ip_status -name ip_status
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sat Dec 28 17:36:16 2019] Launched impl_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+make_wrapper -files [get_files C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd] -top
+WARNING: [Vivado 12-3482] The generated wrapper file has already been imported into the project, the imported file is:
+'C:/Users/life/project_1/project_1.srcs/sources_1/imports/hdl/design_main_project_wrapper.v'
+import_files -force -norecurse C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sat Dec 28 17:36:53 2019] Launched synth_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/synth_1/runme.log
+[Sat Dec 28 17:36:53 2019] Launched impl_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/life/project_1/project_1.runs/impl_1/design_main_project_wrapper.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698789A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698789A
+open_bd_design {C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd}
+delete_bd_objs [get_bd_nets design_A21_wrapper_0_O_21]
+disconnect_bd_net /dff_A11_q [get_bd_pins design_A21_wrapper_0/A11]
+disconnect_bd_net /dff_A20_q [get_bd_pins design_A21_wrapper_0/A20]
+disconnect_bd_net /dff_A21_q [get_bd_pins design_A21_wrapper_0/A21]
+disconnect_bd_net /dff_A22_q [get_bd_pins design_A21_wrapper_0/A22]
+disconnect_bd_net /design_debouncer_wrapper_1_X0 [get_bd_pins design_A21_wrapper_0/L1]
+disconnect_bd_net /design_debouncer_wrapper_2_X0 [get_bd_pins design_A21_wrapper_0/L2]
+disconnect_bd_net /design_debouncer_wrapper_0_X0 [get_bd_pins design_A21_wrapper_0/NC]
+set_property  ip_repo_paths  {c:/Users/life/Desktop/Library c:/Users/life/Desktop/packageA00/packageA00.srcs c:/Users/life/Desktop/package_A10/package_A10.srcs c:/Users/life/Desktop/packageA20/packageA20.srcs c:/Users/life/Desktop/packageA22/packageA22.srcs c:/Users/life/Desktop/packageA11/packageA11.srcs c:/Users/life/Desktop/packageA01/packageA01.srcs c:/Users/life/Desktop/project_debouncer/project_debouncer.srcs} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/Library'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA00/packageA00.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/package_A10/package_A10.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA20/packageA20.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA22/packageA22.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA11/packageA11.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA01/packageA01.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/project_debouncer/project_debouncer.srcs'.
+set_property  ip_repo_paths  {c:/Users/life/Desktop/Library c:/Users/life/Desktop/packageA00/packageA00.srcs c:/Users/life/Desktop/package_A10/package_A10.srcs c:/Users/life/Desktop/packageA20/packageA20.srcs c:/Users/life/Desktop/packageA22/packageA22.srcs c:/Users/life/Desktop/packageA11/packageA11.srcs c:/Users/life/Desktop/packageA01/packageA01.srcs c:/Users/life/Desktop/project_debouncer/project_debouncer.srcs C:/Users/life/Desktop/project_A21_yeni/project_A21_yeni.srcs} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/Library'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA00/packageA00.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/package_A10/package_A10.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA20/packageA20.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA22/packageA22.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA11/packageA11.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA01/packageA01.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/project_debouncer/project_debouncer.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/project_A21_yeni/project_A21_yeni.srcs'.
+delete_bd_objs [get_bd_cells design_A21_wrapper_0]
+undo
+INFO: [Common 17-17] undo 'delete_bd_objs [get_bd_cells design_A21_wrapper_0]'
+delete_bd_objs [get_bd_cells design_A21_wrapper_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:design_yeni_wrapper:1.0 design_yeni_wrapper_0
+endgroup
+connect_bd_net [get_bd_pins design_yeni_wrapper_0/out_A21] [get_bd_pins dff_A21/d]
+set_property location {12.5 2523 112} [get_bd_cells design_yeni_wrapper_0]
+connect_bd_net [get_bd_pins design_debouncer_wrapper_0/X0] [get_bd_pins design_yeni_wrapper_0/NC]
+connect_bd_net [get_bd_pins design_debouncer_wrapper_1/X0] [get_bd_pins design_yeni_wrapper_0/L1]
+connect_bd_net [get_bd_pins design_debouncer_wrapper_2/X0] [get_bd_pins design_yeni_wrapper_0/L2]
+connect_bd_net [get_bd_pins dff_A11/q] [get_bd_pins design_yeni_wrapper_0/A11]
+connect_bd_net [get_bd_pins dff_A20/q] [get_bd_pins design_yeni_wrapper_0/A20]
+connect_bd_net [get_bd_pins dff_A21/q] [get_bd_pins design_yeni_wrapper_0/A21]
+connect_bd_net [get_bd_pins dff_A22/q] [get_bd_pins design_yeni_wrapper_0/A22]
+disconnect_bd_net /dff_A00_q [get_bd_pins xup_nor2_0/a]
+disconnect_bd_net /dff_A01_q [get_bd_pins xup_nor2_0/b]
+disconnect_bd_net /dff_A10_q [get_bd_pins xup_nor2_1/a]
+disconnect_bd_net /dff_A20_q [get_bd_pins xup_nor2_1/b]
+delete_bd_objs [get_bd_nets xup_nor2_0_y] [get_bd_cells xup_nor2_0]
+delete_bd_objs [get_bd_nets xup_nor2_1_y] [get_bd_cells xup_nor2_1]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_or5:1.0 xup_or5_0
+endgroup
+set_property location {20.5 4511 387} [get_bd_cells xup_or5_0]
+connect_bd_net [get_bd_ports CSR1] [get_bd_pins xup_or5_0/y]
+connect_bd_net [get_bd_pins dff_A10/q] [get_bd_pins xup_or5_0/a]
+connect_bd_net [get_bd_pins dff_A11/q] [get_bd_pins xup_or5_0/b]
+connect_bd_net [get_bd_pins dff_A20/q] [get_bd_pins xup_or5_0/c]
+connect_bd_net [get_bd_pins dff_A22/q] [get_bd_pins xup_or5_0/d]
+connect_bd_net [get_bd_pins dff_A21/q] [get_bd_pins xup_or5_0/e]
+save_bd_design
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd> 
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ui/bd_82565834.ui> 
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_or4:1.0 xup_or4_0
+endgroup
+set_property location {21 4708 545} [get_bd_cells xup_or4_0]
+connect_bd_net [get_bd_ports CSR2] [get_bd_pins xup_or4_0/y]
+connect_bd_net [get_bd_pins dff_A21/q] [get_bd_pins xup_or4_0/a]
+connect_bd_net [get_bd_pins dff_A11/q] [get_bd_pins xup_or4_0/b]
+connect_bd_net [get_bd_pins dff_A22/q] [get_bd_pins xup_or4_0/c]
+connect_bd_net [get_bd_pins dff_A01/q] [get_bd_pins xup_or4_0/d]
+save_bd_design
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd> 
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ui/bd_82565834.ui> 
+make_wrapper -files [get_files C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd] -top
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.v
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd> 
+WARNING: [Vivado 12-3482] The generated wrapper file has already been imported into the project, the imported file is:
+'C:/Users/life/project_1/project_1.srcs/sources_1/imports/hdl/design_main_project_wrapper.v'
+import_files -force -norecurse C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [BD 41-1662] The design 'design_main_project.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.v
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_clk_divider_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A00 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A21 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A22 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A01 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A00_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A10_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A20_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A22_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A11_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A01_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR2_and_CR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counter_NC .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counters_L2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_LR2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counters_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_LR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block seg7display_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_yeni_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or5_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or4_0 .
+Exporting to file C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hw_handoff/design_main_project.hwh
+Generated Block Design Tcl file C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hw_handoff/design_main_project_bd.tcl
+Generated Hardware Definition File C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.hwdef
+[Sat Dec 28 19:38:32 2019] Launched design_main_project_xup_or4_0_0_synth_1, design_main_project_design_yeni_wrapper_0_0_synth_1, design_main_project_xup_or5_0_0_synth_1, synth_1...
+Run output will be captured here:
+design_main_project_xup_or4_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xup_or4_0_0_synth_1/runme.log
+design_main_project_design_yeni_wrapper_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_design_yeni_wrapper_0_0_synth_1/runme.log
+design_main_project_xup_or5_0_0_synth_1: C:/Users/life/project_1/project_1.runs/design_main_project_xup_or5_0_0_synth_1/runme.log
+synth_1: C:/Users/life/project_1/project_1.runs/synth_1/runme.log
+[Sat Dec 28 19:38:33 2019] Launched impl_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1439.727 ; gain = 32.227
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698789A
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/life/project_1/project_1.runs/impl_1/design_main_project_wrapper.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698789A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698789A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698789A
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/life/project_1/project_1.runs/impl_1/design_main_project_wrapper.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+open_bd_design {C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd}
+open_bd_design {C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd}
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/Library'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA00/packageA00.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/package_A10/package_A10.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA20/packageA20.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA22/packageA22.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA11/packageA11.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA01/packageA01.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/project_debouncer/project_debouncer.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/project_A21_yeni/project_A21_yeni.srcs'.
+update_ip_catalog: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1465.445 ; gain = 0.000
+report_ip_status -name ip_status
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:design_yeni_wrapper:1.0 design_yeni_wrapper_1
+endgroup
+delete_bd_objs [get_bd_cells design_yeni_wrapper_1]
+make_wrapper -files [get_files C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd] -top
+CRITICAL WARNING: [BD 41-1178] The design is using an old version of the following IPs. It is recommended that you upgrade these cells to their latest version: 
+/design_yeni_wrapper_0
+
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.v
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd> 
+WARNING: [Vivado 12-3482] The generated wrapper file has already been imported into the project, the imported file is:
+'C:/Users/life/project_1/project_1.srcs/sources_1/imports/hdl/design_main_project_wrapper.v'
+import_files -force -norecurse C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [BD 41-1662] The design 'design_main_project.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.v
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_clk_divider_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A00 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A21 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A22 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A01 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A00_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A10_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A20_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A22_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A11_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A01_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR2_and_CR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counter_NC .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counters_L2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_LR2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counters_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_LR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block seg7display_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_yeni_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or5_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or4_0 .
+Exporting to file C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hw_handoff/design_main_project.hwh
+Generated Block Design Tcl file C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hw_handoff/design_main_project_bd.tcl
+Generated Hardware Definition File C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.hwdef
+[Sat Dec 28 19:58:42 2019] Launched synth_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/synth_1/runme.log
+[Sat Dec 28 19:58:42 2019] Launched impl_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1515.676 ; gain = 33.598
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/life/project_1/project_1.runs/impl_1/design_main_project_wrapper.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698789A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698789A
+open_bd_design {C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd}
+set_property screensize {95 60} [get_bd_cells xup_or2_LR1]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_or5:1.0 xup_or5_1
+endgroup
+set_property location {6 937 707} [get_bd_cells xup_or5_1]
+delete_bd_objs [get_bd_nets xup_or2_LR3_y]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and2:1.0 xup_and2_2
+endgroup
+connect_bd_net [get_bd_pins xup_or5_1/y] [get_bd_pins xup_and2_2/a]
+connect_bd_net [get_bd_pins xup_or2_LR1/y] [get_bd_pins xup_and2_2/b]
+connect_bd_net [get_bd_pins xup_and2_2/y] [get_bd_pins counters_0/clk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_and2_2/y(undef) and /counters_0/clk(clk)
+connect_bd_net [get_bd_pins dff_A21/q] [get_bd_pins xup_or5_1/a]
+connect_bd_net [get_bd_pins dff_A10/q] [get_bd_pins xup_or5_1/b]
+connect_bd_net [get_bd_pins dff_A20/q] [get_bd_pins xup_or5_1/c]
+connect_bd_net [get_bd_pins dff_A22/q] [get_bd_pins xup_or5_1/d]
+connect_bd_net [get_bd_pins dff_A11/q] [get_bd_pins xup_or5_1/e]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_or4:1.0 xup_or4_1
+endgroup
+set_property location {5.5 924 893} [get_bd_cells xup_or4_1]
+copy_bd_objs /  [get_bd_cells {xup_and2_2}]
+set_property location {7 1145 898} [get_bd_cells xup_and2_3]
+delete_bd_objs [get_bd_nets xup_or2_2_y]
+connect_bd_net [get_bd_pins xup_and2_3/y] [get_bd_pins counters_L2/clk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_and2_3/y(undef) and /counters_L2/clk(clk)
+connect_bd_net [get_bd_pins xup_or2_LR2/y] [get_bd_pins xup_and2_3/a]
+connect_bd_net [get_bd_pins xup_or4_1/y] [get_bd_pins xup_and2_3/b]
+connect_bd_net [get_bd_pins dff_A21/q] [get_bd_pins xup_or4_1/a]
+connect_bd_net [get_bd_pins dff_A22/q] [get_bd_pins xup_or4_1/b]
+connect_bd_net [get_bd_pins dff_A11/q] [get_bd_pins xup_or4_1/c]
+connect_bd_net [get_bd_pins dff_A01/q] [get_bd_pins xup_or4_1/d]
+save_bd_design
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd> 
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ui/bd_82565834.ui> 
+make_wrapper -files [get_files C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd] -top
+CRITICAL WARNING: [BD 41-1178] The design is using an old version of the following IPs. It is recommended that you upgrade these cells to their latest version: 
+/design_yeni_wrapper_0
+
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.v
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd> 
+WARNING: [Vivado 12-3482] The generated wrapper file has already been imported into the project, the imported file is:
+'C:/Users/life/project_1/project_1.srcs/sources_1/imports/hdl/design_main_project_wrapper.v'
+import_files -force -norecurse C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698789A
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [BD 41-1662] The design 'design_main_project.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.v
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_clk_divider_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A00 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A21 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A22 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A01 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A00_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A10_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A20_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A22_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A11_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A01_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR2_and_CR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counter_NC .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counters_L2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_LR2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counters_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_LR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block seg7display_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_yeni_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or5_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or4_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or5_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or4_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_3 .
+Exporting to file C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hw_handoff/design_main_project.hwh
+Generated Block Design Tcl file C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hw_handoff/design_main_project_bd.tcl
+Generated Hardware Definition File C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_main_project_xup_or5_1_0, cache-ID = 726da3f3cda686f1; cache size = 1.326 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_main_project_xup_and2_2_0, cache-ID = 772c50513a2a1ee1; cache size = 1.326 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_main_project_xup_or4_1_0, cache-ID = 431112c5b8306451; cache size = 1.326 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_main_project_xup_and2_2_1, cache-ID = 772c50513a2a1ee1; cache size = 1.326 MB.
+[Sat Dec 28 20:33:25 2019] Launched synth_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/synth_1/runme.log
+[Sat Dec 28 20:33:25 2019] Launched impl_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1552.469 ; gain = 36.793
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/life/project_1/project_1.runs/impl_1/design_main_project_wrapper.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/life/project_1/project_1.runs/impl_1/design_main_project_wrapper.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sat Dec 28 20:40:27 2019] Launched synth_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/synth_1/runme.log
+[Sat Dec 28 20:40:27 2019] Launched impl_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/impl_1/runme.log
+open_bd_design {C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd}
+disconnect_bd_net /dff_A01_q [get_bd_ports A01]
+disconnect_bd_net /dff_A11_q [get_bd_ports A11]
+disconnect_bd_net /dff_A22_q [get_bd_ports A22]
+disconnect_bd_net /dff_A21_q [get_bd_ports A21]
+disconnect_bd_net /dff_A20_q [get_bd_ports A20]
+disconnect_bd_net /dff_A10_q [get_bd_ports A10]
+disconnect_bd_net /dff_A00_q [get_bd_ports A00]
+delete_bd_objs [get_bd_ports A00]
+delete_bd_objs [get_bd_ports A10]
+delete_bd_objs [get_bd_ports A01]
+delete_bd_objs [get_bd_ports A11]
+delete_bd_objs [get_bd_ports A22]
+delete_bd_objs [get_bd_ports A21]
+delete_bd_objs [get_bd_ports A20]
+save_bd_design
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd> 
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ui/bd_82565834.ui> 
+make_wrapper -files [get_files C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd] -top
+CRITICAL WARNING: [BD 41-1178] The design is using an old version of the following IPs. It is recommended that you upgrade these cells to their latest version: 
+/design_yeni_wrapper_0
+
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.v
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd> 
+WARNING: [Vivado 12-3482] The generated wrapper file has already been imported into the project, the imported file is:
+'C:/Users/life/project_1/project_1.srcs/sources_1/imports/hdl/design_main_project_wrapper.v'
+import_files -force -norecurse C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [BD 41-1662] The design 'design_main_project.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.v
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_clk_divider_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A00 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A21 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A22 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A01 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A00_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A10_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A20_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A22_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A11_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A01_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR2_and_CR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counter_NC .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counters_L2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_LR2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counters_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_LR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block seg7display_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_yeni_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or5_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or4_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or5_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or4_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_3 .
+Exporting to file C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hw_handoff/design_main_project.hwh
+Generated Block Design Tcl file C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hw_handoff/design_main_project_bd.tcl
+Generated Hardware Definition File C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.hwdef
+[Sat Dec 28 20:44:17 2019] Launched synth_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/synth_1/runme.log
+[Sat Dec 28 20:44:17 2019] Launched impl_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1614.973 ; gain = 32.094
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/life/project_1/project_1.runs/impl_1/design_main_project_wrapper.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+open_bd_design {C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd}
+delete_bd_objs [get_bd_nets xup_or2_LR2_y]
+delete_bd_objs [get_bd_nets xup_and2_3_y]
+connect_bd_net [get_bd_pins xup_or2_LR2/y] [get_bd_pins counters_L2/clk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_or2_LR2/y(undef) and /counters_L2/clk(clk)
+connect_bd_net [get_bd_pins design_debouncer_wrapper_2/X0] [get_bd_pins xup_and2_3/a]
+disconnect_bd_net /design_debouncer_wrapper_2_X0 [get_bd_pins xup_or2_LR2/a]
+startgroup
+connect_bd_net [get_bd_pins xup_and2_3/y] [get_bd_pins xup_or2_LR2/a]
+endgroup
+delete_bd_objs [get_bd_nets xup_or2_LR1_y]
+delete_bd_objs [get_bd_nets xup_and2_2_y]
+connect_bd_net [get_bd_pins xup_or2_LR1/y] [get_bd_pins counters_0/clk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_or2_LR1/y(undef) and /counters_0/clk(clk)
+connect_bd_net [get_bd_pins design_debouncer_wrapper_1/X0] [get_bd_pins xup_and2_2/b]
+disconnect_bd_net /design_debouncer_wrapper_1_X0 [get_bd_pins xup_or2_LR1/a]
+startgroup
+connect_bd_net [get_bd_pins xup_and2_2/y] [get_bd_pins xup_or2_LR1/a]
+endgroup
+save_bd_design
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd> 
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/ui/bd_82565834.ui> 
+make_wrapper -files [get_files C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd] -top
+CRITICAL WARNING: [BD 41-1178] The design is using an old version of the following IPs. It is recommended that you upgrade these cells to their latest version: 
+/design_yeni_wrapper_0
+
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.v
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+Wrote  : <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd> 
+WARNING: [Vivado 12-3482] The generated wrapper file has already been imported into the project, the imported file is:
+'C:/Users/life/project_1/project_1.srcs/sources_1/imports/hdl/design_main_project_wrapper.v'
+import_files -force -norecurse C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [BD 41-1662] The design 'design_main_project.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.v
+Verilog Output written to : C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_debouncer_wrapper_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_clk_divider_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A00 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A21 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A22 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dff_A01 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A00_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A10_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A20_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A22_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A11_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_A01_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_2_to_1_mux_vector_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR2_and_CR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block concat_CR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or3_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counter_NC .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counters_L2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_LR2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counters_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or2_LR1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block seg7display_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_inv_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block design_yeni_wrapper_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or5_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or4_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or5_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_or4_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xup_and2_3 .
+Exporting to file C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hw_handoff/design_main_project.hwh
+Generated Block Design Tcl file C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hw_handoff/design_main_project_bd.tcl
+Generated Hardware Definition File C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/hdl/design_main_project.hwdef
+[Sat Dec 28 20:54:33 2019] Launched synth_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/synth_1/runme.log
+[Sat Dec 28 20:54:33 2019] Launched impl_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1660.980 ; gain = 24.313
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/life/project_1/project_1.runs/impl_1/design_main_project_wrapper.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+open_bd_design {C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd}
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698789A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698789A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698789A
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sat Dec 28 22:04:46 2019] Launched impl_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/life/project_1/project_1.runs/impl_1/design_main_project_wrapper.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698789A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698789A
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 28 22:16:32 2019...

@@ -1,0 +1,73 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
+| Date         : Sat Dec 28 20:56:03 2019
+| Host         : DESKTOP-7JVP1MK running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file design_main_project_wrapper_control_sets_placed.rpt
+| Design       : design_main_project_wrapper
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    10 |
+| Unused register locations in slices containing registers |    40 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              20 |           15 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              64 |           16 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              12 |            3 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------------------------+-----------------------------------------------+----------------------------------------------------+------------------+----------------+
+|                     Clock Signal                     |                 Enable Signal                 |                  Set/Reset Signal                  | Slice Load Count | Bel Load Count |
++------------------------------------------------------+-----------------------------------------------+----------------------------------------------------+------------------+----------------+
+|  design_main_project_i/xup_or2_1/y                   |                                               | RESET_IBUF                                         |                1 |              4 |
+|  design_main_project_i/xup_or2_1/y                   | design_main_project_i/counter_NC/inst/p_5_in  | RESET_IBUF                                         |                1 |              4 |
+|  design_main_project_i/xup_or2_LR1/y                 |                                               | RESET_IBUF                                         |                1 |              4 |
+|  design_main_project_i/xup_or2_LR1/y                 | design_main_project_i/counters_0/inst/p_5_in  | RESET_IBUF                                         |                1 |              4 |
+|  design_main_project_i/xup_or2_LR2/y                 |                                               | RESET_IBUF                                         |                1 |              4 |
+|  design_main_project_i/xup_or2_LR2/y                 | design_main_project_i/counters_L2/inst/p_5_in | RESET_IBUF                                         |                1 |              4 |
+|  design_main_project_i/xup_clk_divider_0/inst/clkout |                                               |                                                    |                7 |              9 |
+|  CLK_IBUF_BUFG                                       |                                               |                                                    |                8 |             11 |
+|  CLK_IBUF_BUFG                                       |                                               | RESET_IBUF                                         |                5 |             20 |
+|  CLK_IBUF_BUFG                                       |                                               | design_main_project_i/xup_clk_divider_0/inst/clear |                8 |             32 |
++------------------------------------------------------+-----------------------------------------------+----------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 4      |                     6 |
+| 9      |                     1 |
+| 11     |                     1 |
+| 16+    |                     2 |
++--------+-----------------------+
+
+

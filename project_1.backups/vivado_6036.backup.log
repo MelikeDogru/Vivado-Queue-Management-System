@@ -1,0 +1,134 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Dec 30 09:18:34 2019
+# Process ID: 6036
+# Current directory: C:/Users/life/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9000 C:\Users\life\project_1\project_1.xpr
+# Log file: C:/Users/life/project_1/vivado.log
+# Journal file: C:/Users/life/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+opopen_project C:/Users/life/project_1/project_1.xpScanning sources...
+Finished scanning sources
+ININFO: [IP_Flow 19-234] Refreshing IP repositorieININFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/Library'ININFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA00/packageA00.srcs'ININFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/package_A10/package_A10.srcs'INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA20/packageA20.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA22/packageA22.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA11/packageA11.srcs'.
+ININFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/packageA01/packageA01.srcs'ININFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/project_debouncer/project_debouncer.srcs'INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/life/Desktop/project_A21_yeni/project_A21_yeni.srcs'.
+ININFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'opopen_project: Time (s): cpu = 00:00:39 ; elapsed = 00:01:10 . Memory (MB): peak = 698.387 ; gain = 132.28opexit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 30 09:21:04 2019...
+main_project/design_main_project.bd}
+Adding cell -- xilinx.com:user:design_debouncer_wrapper:1.0 - design_debouncer_wrapper_0
+Adding cell -- xilinx.com:user:design_debouncer_wrapper:1.0 - design_debouncer_wrapper_1
+Adding cell -- xilinx.com:user:design_debouncer_wrapper:1.0 - design_debouncer_wrapper_2
+Adding cell -- xilinx.com:XUP:xup_clk_divider:1.0 - xup_clk_divider_0
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A00
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A10
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A20
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A21
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A22
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A11
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - dff_A01
+Adding cell -- xilinx.com:user:design_A00_wrapper:1.0 - design_A00_wrapper_0
+Adding cell -- xilinx.com:user:design_A10_wrapper:1.0 - design_A10_wrapper_0
+Adding cell -- xilinx.com:user:design_A20_wrapper:1.0 - design_A20_wrapper_0
+Adding cell -- xilinx.com:user:design_A22_wrapper:1.0 - design_A22_wrapper_0
+Adding cell -- xilinx.com:user:design_A11_wrapper:1.0 - design_A11_wrapper_0
+Adding cell -- xilinx.com:user:design_A01_wrapper:1.0 - design_A01_wrapper_0
+Adding cell -- xilinx.com:XUP:xup_2_to_1_mux_vector:1.0 - xup_2_to_1_mux_vector_0
+Adding cell -- xilinx.com:XUP:xup_2_to_1_mux_vector:1.0 - xup_2_to_1_mux_vector_1
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - concat_CR2
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding cell -- xilinx.com:XUP:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - concat_CR2_and_CR1
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - concat_CR1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3
+Adding cell -- xilinx.com:XUP:xup_or3:1.0 - xup_or3_1
+Adding cell -- xilinx.com:XUP:xup_or2:1.0 - xup_or2_0
+Adding cell -- xilinx.com:XUP:xup_or2:1.0 - xup_or2_1
+Adding cell -- xilinx.com:XUP:counters:1.0 - counter_NC
+Adding cell -- xilinx.com:XUP:counters:1.0 - counters_L2
+Adding cell -- xilinx.com:XUP:xup_or2:1.0 - xup_or2_LR2
+Adding cell -- xilinx.com:XUP:counters:1.0 - counters_0
+Adding cell -- xilinx.com:XUP:xup_or2:1.0 - xup_or2_LR1
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:XUP:seg7display:1.0 - seg7display_0
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:user:design_yeni_wrapper:1.0 - design_yeni_wrapper_0
+Adding cell -- xilinx.com:XUP:xup_or5:1.0 - xup_or5_0
+Adding cell -- xilinx.com:XUP:xup_or4:1.0 - xup_or4_0
+Adding cell -- xilinx.com:XUP:xup_or5:1.0 - xup_or5_1
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:XUP:xup_or4:1.0 - xup_or4_1
+Adding cell -- xilinx.com:XUP:xup_and2:1.0 - xup_and2_3
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A21/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A00/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A10/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A22/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A20/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A11/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_clk_divider_0/clkout(undef) and /dff_A01/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_or2_1/y(undef) and /counter_NC/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_or2_LR2/y(undef) and /counters_L2/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /xup_or2_LR1/y(undef) and /counters_0/clk(clk)
+Successfully read diagram <design_main_project> from BD file <C:/Users/life/project_1/project_1.srcs/sources_1/bd/design_main_project/design_main_project.bd>
+open_bd_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 758.059 ; gain = 31.457
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Dec 30 09:22:55 2019] Launched impl_1...
+Run output will be captured here: C:/Users/life/project_1/project_1.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.4
+  **** Build date : Jan 23 2017-19:37:29
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 819.402 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698789A
+set_property PROGRAM.FILE {C:/Users/life/project_1/project_1.runs/impl_1/design_main_project_wrapper.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/life/project_1/project_1.runs/impl_1/design_main_project_wrapper.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210183698789A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183698789A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183698789A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+close_hw
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 30 09:28:05 2019...

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1577555673">
+  <File Type="ROUTE-PWR-RPX" Name="design_main_project_wrapper_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="design_main_project_wrapper.tcl"/>
+  <File Type="INIT-TIMING" Name="design_main_project_wrapper_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="design_main_project_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="design_main_project_wrapper_drc_pwropted.rpt"/>
+  <File Type="RDI-RDI" Name="design_main_project_wrapper.vdi"/>
+  <File Type="OPT-DCP" Name="design_main_project_wrapper_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="design_main_project_wrapper.hwdef"/>
+  <File Type="OPT-DRC" Name="design_main_project_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="design_main_project_wrapper_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="design_main_project_wrapper_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="design_main_project_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="design_main_project_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="design_main_project_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="design_main_project_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="design_main_project_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="design_main_project_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="design_main_project_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="design_main_project_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="design_main_project_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="design_main_project_wrapper_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="design_main_project_wrapper_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="design_main_project_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="design_main_project_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="design_main_project_wrapper_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="design_main_project_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="design_main_project_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="design_main_project_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="design_main_project_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="design_main_project_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="design_main_project_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="design_main_project_wrapper_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="design_main_project_wrapper.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="design_main_project_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="BG-DRC" Name="design_main_project_wrapper.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="design_main_project_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="design_main_project_wrapper.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="design_main_project_wrapper_methodology_drc_routed.pb"/>
+  <File Type="BG-BGN" Name="design_main_project_wrapper.bgn"/>
+  <File Type="ROUTE-PWR" Name="design_main_project_wrapper_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="design_main_project_wrapper_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="design_main_project_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="design_main_project_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="design_main_project_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="design_main_project_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="design_main_project_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="design_main_project_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="design_main_project_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="design_main_project_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="design_main_project_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="design_main_project_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="design_main_project_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="design_main_project_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="design_main_project_wrapper.bit"/>
+  <File Type="BITSTR-RBT" Name="design_main_project_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="design_main_project_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="design_main_project_wrapper_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="design_main_project_wrapper.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="design_main_project_wrapper.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/design_main_project/design_main_project.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/design_main_project_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/bd/design_main_project/hdl/design_main_project_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1577555652"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="design_main_project_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../Desktop/Basys-3-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xlconstant_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_counters_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xup_or3_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xup_or2_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_dff_A10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_dff_A20_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_design_debouncer_wrapper_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xup_2_to_1_mux_vector_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xup_or2_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_design_debouncer_wrapper_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_dff_A20_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xup_clk_divider_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xup_or3_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xup_or2_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xup_inv_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xup_or4_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_design_debouncer_wrapper_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_design_A01_wrapper_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_design_A22_wrapper_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_design_A10_wrapper_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_design_A00_wrapper_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_design_A11_wrapper_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_dff_A20_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xup_dff_en_reset_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_dff_A20_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_dff_A00_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xup_2_to_1_mux_vector_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_design_A20_wrapper_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xlconstant_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xlconstant_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xlconstant_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_counters_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xlconcat_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xlconcat_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xlconcat_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xup_and2_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xlconcat_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_seg7display_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_counters_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xup_or2_LR2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xup_and2_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xup_inv_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_xup_or5_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_main_project_design_yeni_wrapper_0_0"/>
+</GenRun>
